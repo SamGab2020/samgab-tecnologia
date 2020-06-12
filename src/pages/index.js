@@ -7,8 +7,6 @@ import config from '../../config';
 import Footer from '../components/Footer';
 import screen from '../assets/images/screen.png';
 import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
 import { Link } from 'gatsby';
 
 const IndexPage = () => (
@@ -31,7 +29,7 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="one">
               <a href="#one" className="button icon fa-chevron-down">
-                Learn More
+                Expertise
               </a>
             </Scroll>
           </li>
@@ -47,9 +45,9 @@ const IndexPage = () => (
     <section id="one" className="wrapper style2 special">
       <header className="major">
         <h2>
-          Sed ipsum magna lorem tempus amet
+          Consultoria em Tecnologia da Informação
           <br />
-          vehicula et gravida elementum
+          Desenvolvimento de soluções para celulares e computadores
         </h2>
       </header>
       <ul className="icons major">
@@ -78,40 +76,13 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </div>
           <div className="content">
-            <h3>Magna sed ultrices</h3>
+            <h3>Infocel</h3>
             <p>
-              Morbi mattis ornare ornare. Duis quam turpis, gravida at leo
-              elementum elit fusce accumsan dui libero, quis vehicula lectus
-              ultricies eu. In convallis amet leo non sapien iaculis efficitur
-              consequat lorem ipsum.
-            </p>
-          </div>
-        </section>
-        <section className="spotlight">
-          <div className="image">
-            <img src={pic2} alt="" />
-          </div>
-          <div className="content">
-            <h3>Ultrices nullam aliquam</h3>
-            <p>
-              Morbi mattis ornare ornare. Duis quam turpis, gravida at leo
-              elementum elit fusce accumsan dui libero, quis vehicula lectus
-              ultricies eu. In convallis amet leo non sapien iaculis efficitur
-              consequat lorem ipsum.
-            </p>
-          </div>
-        </section>
-        <section className="spotlight">
-          <div className="image">
-            <img src={pic3} alt="" />
-          </div>
-          <div className="content">
-            <h3>Aliquam sed magna</h3>
-            <p>
-              Morbi mattis ornare ornare. Duis quam turpis, gravida at leo
-              elementum elit fusce accumsan dui libero, quis vehicula lectus
-              ultricies eu. In convallis amet leo non sapien iaculis efficitur
-              consequat lorem ipsum.
+            Aplicativo bastante simples e não invasivo, que permite a consulta
+            sobre as configurações básicas do seu aparelho celular. Com este
+            software você vai entender se o seu celular ainda está atualizado
+            e se realmente tem as configurações que te passaram no momento da
+            compra!
             </p>
           </div>
         </section>
@@ -145,20 +116,6 @@ const IndexPage = () => (
           </ul>
         </section>
       </div>
-    </section>
-
-    <section id="three" className="wrapper style2 special">
-      <header className="major">
-        <h2>Elements Page</h2>
-        <p>This starter is included with Elements demo for the starter</p>
-      </header>
-      <ul className="actions special">
-        <li>
-          <Link to="/Elements" className="button primary icon fa-plus">
-            Check Elements
-          </Link>
-        </li>
-      </ul>
     </section>
 
     <Footer />
