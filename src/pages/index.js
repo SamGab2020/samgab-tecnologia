@@ -33,6 +33,13 @@ const IndexPage = () => (
               </a>
             </Scroll>
           </li>
+          <li>
+            <Scroll type="id" element="two">
+              <a href="#one" className="button icon fa-chevron-down">
+                Soluções
+              </a>
+            </Scroll>
+          </li>
         </ul>
       </div>
       <div className="image phone">
@@ -44,29 +51,10 @@ const IndexPage = () => (
 
     <section id="one" className="wrapper style2 special">
       <header className="major">
-        <h2>
-          Consultoria em Tecnologia da Informação
-          <br />
-          Desenvolvimento de soluções para celulares e computadores
-        </h2>
+        <h2>Consultoria em Tecnologia da Informação</h2>
+        <br />
+        <h2>Desenvolvimento de soluções para celulares e computadores</h2>
       </header>
-      <ul className="icons major">
-        <li>
-          <span className="icon fa-camera-retro">
-            <span className="label">Shoot</span>
-          </span>
-        </li>
-        <li>
-          <span className="icon fa-refresh">
-            <span className="label">Process</span>
-          </span>
-        </li>
-        <li>
-          <span className="icon fa-cloud">
-            <span className="label">Upload</span>
-          </span>
-        </li>
-      </ul>
     </section>
 
     <section id="two" className="wrapper">
@@ -85,35 +73,6 @@ const IndexPage = () => (
             compra!
             </p>
           </div>
-        </section>
-        <section className="special">
-          <ul className="icons labeled">
-            <li>
-              <span className="icon fa-camera-retro">
-                <span className="label">Ipsum lorem accumsan</span>
-              </span>
-            </li>
-            <li>
-              <span className="icon fa-refresh">
-                <span className="label">Sed vehicula elementum</span>
-              </span>
-            </li>
-            <li>
-              <span className="icon fa-cloud">
-                <span className="label">Elit fusce consequat</span>
-              </span>
-            </li>
-            <li>
-              <span className="icon fa-code">
-                <span className="label">Lorem nullam tempus</span>
-              </span>
-            </li>
-            <li>
-              <span className="icon fa-desktop">
-                <span className="label">Adipiscing amet sapien</span>
-              </span>
-            </li>
-          </ul>
         </section>
       </div>
     </section>
