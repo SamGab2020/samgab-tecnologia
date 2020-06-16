@@ -5,7 +5,7 @@ import Scroll from '../components/Scroll';
 
 import config from '../../config';
 import Footer from '../components/Footer';
-import screen from '../assets/images/screen.png';
+import logotipo from '../assets/images/logo_no_cel.png';
 import pic1 from '../assets/images/pic01.jpg';
 import { Link } from 'gatsby';
 
@@ -18,14 +18,6 @@ const IndexPage = () => (
         </h1>
         <p>{config.subHeading}</p>
         <ul className="actions">
-          <li>
-            <a
-              href="https://github.com/anubhavsrivastava/gatsby-starter-fractal/archive/master.zip"
-              className="button primary icon fa-download"
-            >
-              Download Starter
-            </a>
-          </li>
           <li>
             <Scroll type="id" element="one">
               <a href="#one" className="button icon fa-chevron-down">
@@ -44,7 +36,7 @@ const IndexPage = () => (
       </div>
       <div className="image phone">
         <div className="inner">
-          <img src={screen} alt="" />
+          <img src={logotipo} alt="" />
         </div>
       </div>
     </header>
@@ -72,6 +64,7 @@ const IndexPage = () => (
             e se realmente tem as configurações que te passaram no momento da
             compra!
             </p>
+            <br />
           </div>
         </section>
       </div>
