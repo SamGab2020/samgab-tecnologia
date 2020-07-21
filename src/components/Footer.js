@@ -19,9 +19,6 @@ export default function Footer() {
 		  <p className="copyright">
 			&copy; SamGab Tecnologia.
 		  </p>
-		  <p className="copyright">
-			Teste.
-		  </p>
 		</div>
     </footer>
   );
