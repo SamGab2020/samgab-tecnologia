@@ -21,14 +21,14 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="one">
               <a href="#one" className="button icon fa-chevron-down">
-                Expertise
+                Serviços
               </a>
             </Scroll>
           </li>
           <li>
             <Scroll type="id" element="two">
               <a href="#one" className="button icon fa-chevron-down">
-                Soluções
+                Portfólio
               </a>
             </Scroll>
           </li>

@@ -17,6 +17,11 @@ module.exports = {
       name: 'Email',
       url: 'mailto:samgab@outlook.com.br',
     },
+	{
+      icon: 'fa-phone',
+      name: 'Phone',
+      url: 'https://api.whatsapp.com/send?phone=5511952815917',
+    },
   ],
   phone: '000-00000',
 };
