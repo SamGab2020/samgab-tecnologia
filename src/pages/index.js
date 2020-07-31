@@ -7,6 +7,7 @@ import config from '../../config';
 import Footer from '../components/Footer';
 import logotipo from '../assets/images/logo_no_cel.png';
 import pic1 from '../assets/images/pic01.jpg';
+import pic2 from '../assets/images/pic02.jpg';
 import { Link } from 'gatsby';
 
 const IndexPage = () => (
@@ -43,13 +44,45 @@ const IndexPage = () => (
 
     <section id="one" className="wrapper style2 special">
       <header className="major">
-        <h2>Consultoria em Tecnologia da Informação</h2>
-        <br />
-        <h2>Desenvolvimento de soluções para celulares e computadores</h2>
+        <h2>Serviços</h2>
       </header>
+	  <div className="inner alt">
+	    <section className="special">
+          <ul className="icons labeled">
+            <li>
+              <span className="icon fa-whatsapp">
+                <span className="label">Orçamento gratuito via Whatsapp</span>
+              </span>
+            </li>
+            <li>
+              <span className="icon fa-code">
+                <span className="label">Fazemos o seu site estático de graça!</span>
+              </span>
+            </li>
+            <li>
+              <span className="icon fa-android">
+                <span className="label">Desenvolvimento de aplicativos mobile</span>
+              </span>
+            </li>
+            <li>
+              <span className="icon fa-desktop">
+                <span className="label">Desenvolvimento de aplicativos desktop</span>
+              </span>
+            </li>
+            <li>
+              <span className="icon fa-download">
+                <span className="label">Portfólio com downloads gratuitos!</span>
+              </span>
+            </li>
+          </ul>
+        </section>
+      </div>
     </section>
-
+	
     <section id="two" className="wrapper">
+	  <header className="major">
+      <h2>Portfólio</h2>
+      </header>
       <div className="inner alt">
         <section className="spotlight">
           <div className="image">
@@ -61,10 +94,43 @@ const IndexPage = () => (
             Aplicativo bastante simples e não invasivo, que permite a consulta
             sobre as configurações básicas do seu aparelho celular. Com este
             software você vai entender se o seu celular ainda está atualizado
-            e se realmente tem as configurações que te passaram no momento da
+            e se realmente tem as configurações que te informaram no momento da
             compra!
             </p>
+			<ul className="actions">
+			  <li>
+				<a
+				  href="http://www.google.com"
+				  className="button primary icon fa-download"
+				>
+				  Download - Infocel
+				</a>
+			  </li>
+			</ul>
             <br />
+          </div>
+        </section>
+		<section className="spotlight">
+          <div className="image">
+            <img src={pic2} alt="" />
+          </div>
+          <div className="content">
+            <h3>Radar PS4</h3>
+            <p>
+              Aplicativo para você rodar diretamente no seu computador e receber
+			  uma lista atualizada com todas as promoções de games de PlayStation 4!
+			  
+            </p>
+			<ul className="actions">
+			  <li>
+				<a
+				  href="http://www.google.com"
+				  className="button primary icon fa-download"
+				>
+				  Download - Radar PS4
+				</a>
+			  </li>
+			</ul>
           </div>
         </section>
       </div>
