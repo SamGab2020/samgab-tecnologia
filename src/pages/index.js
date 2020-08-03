@@ -6,8 +6,8 @@ import Scroll from '../components/Scroll';
 import config from '../../config';
 import Footer from '../components/Footer';
 import logotipo from '../assets/images/logo_no_cel.png';
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
+import pic1 from '../assets/images/pic_infocel.jpg';
+import pic2 from '../assets/images/pic_radar_ps4.jpg';
 import { Link } from 'gatsby';
 
 const IndexPage = () => (
@@ -29,7 +29,7 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="two">
               <a href="#one" className="button icon fa-chevron-down">
-                Portfólio
+                Produtos
               </a>
             </Scroll>
           </li>
@@ -71,7 +71,7 @@ const IndexPage = () => (
             </li>
             <li>
               <span className="icon fa-download">
-                <span className="label">Portfólio com downloads gratuitos!</span>
+                <span className="label">Produtos com downloads gratuitos!</span>
               </span>
             </li>
           </ul>
@@ -81,7 +81,7 @@ const IndexPage = () => (
 	
     <section id="two" className="wrapper">
 	  <header className="major">
-      <h2>Portfólio</h2>
+      <h2>Produtos</h2>
       </header>
       <div className="inner alt">
         <section className="spotlight">
@@ -101,7 +101,7 @@ const IndexPage = () => (
 			  <li>
 				<a
 				  href="http://www.google.com"
-				  className="button primary icon fa-download"
+				  className="button icon fa-download"
 				>
 				  Download - Infocel
 				</a>
@@ -125,7 +125,7 @@ const IndexPage = () => (
 			  <li>
 				<a
 				  href="http://www.google.com"
-				  className="button primary icon fa-download"
+				  className="button icon fa-download"
 				>
 				  Download - Radar PS4
 				</a>
