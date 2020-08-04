@@ -19,6 +19,13 @@ export default function Footer() {
 		  <p className="copyright">
 			&copy; SamGab Tecnologia.
 		  </p>
+		  <br/>
+		  <p className="copyright">		
+			Design - &copy; <a href="https://theanubhav.com/">Anubhav.</a>
+		  </p>
+		  <p className="copyright">		
+			Plataforma - &copy; <a href="https://www.gatsbyjs.org/">Gatsby.</a>
+		  </p>
 		</div>
     </footer>
   );
