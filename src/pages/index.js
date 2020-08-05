@@ -100,7 +100,7 @@ const IndexPage = () => (
 			<ul className="actions">
 			  <li>
 				<a
-				  href="http://www.google.com"
+				  href="https://github.com/SamGab2020/infocel/raw/master/infocel.apk"
 				  className="button icon fa-download"
 				>
 				  Download - Infocel
