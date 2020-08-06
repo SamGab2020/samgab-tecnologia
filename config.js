@@ -12,15 +12,15 @@ module.exports = {
   subHeading: 'Mais de 20 anos de experiência na análise e desenvolvimento de software.  ',
   // social
   socialLinks: [
+	{
+      icon: 'fa-whatsapp',
+      name: 'Whatsapp',
+      url: 'https://api.whatsapp.com/send?phone=5511952815917',
+    },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
       url: 'mailto:samgab@outlook.com.br',
-    },
-	{
-      icon: 'fa-phone',
-      name: 'Phone',
-      url: 'https://api.whatsapp.com/send?phone=5511952815917',
     },
   ],
   phone: '000-00000',
