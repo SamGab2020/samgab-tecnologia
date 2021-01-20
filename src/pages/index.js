@@ -55,11 +55,6 @@ const IndexPage = () => (
               </span>
             </li>
             <li>
-              <span className="icon fa-code">
-                <span className="label">Fazemos o seu site estático de graça!</span>
-              </span>
-            </li>
-            <li>
               <span className="icon fa-android">
                 <span className="label">Desenvolvimento de aplicativos mobile</span>
               </span>
