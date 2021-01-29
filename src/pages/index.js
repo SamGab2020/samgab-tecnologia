@@ -86,11 +86,7 @@ const IndexPage = () => (
           <div className="content">
             <h3>Infocel</h3>
             <p>
-            Aplicativo bastante simples e não invasivo, que permite a consulta
-            sobre as configurações básicas do seu aparelho celular. Com este
-            software você vai entender se o seu celular ainda está atualizado
-            e se realmente tem as configurações que te informaram no momento da
-            compra!
+				Um aplicativo básico, simples e não invasivo, que disponibiliza as principais informações de hardware e software do seu aparelho. Muito útil para que você saiba o poder da máquina que tem em mãos, se o seu equipamento já está defasado ou se pode instalar e jogar aquele game ultra moderno lançado recentemente.
             </p>
 			<ul className="actions">
 			  <li>
