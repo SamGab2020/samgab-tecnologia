@@ -101,10 +101,9 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </div>
           <div className="content">
-            <h3>Radar PS4</h3>
+            <h3>All Code</h3>
             <p>
-              Aplicativo para você rodar diretamente no seu computador e receber
-			  uma lista atualizada com todas as promoções de games de PlayStation 4!
+              Nos tempos atuais torna-se imprescindível a utilização de um aplicativo que leia códigos de barra e QR codes para que as informações sejam levadas até você de forma segura e prática. Pensando nisso desenvolvemos o All Code!
 			  
             </p>
 			<ul className="actions">
@@ -113,7 +112,7 @@ const IndexPage = () => (
 				  href="http://www.google.com"
 				  className="button icon fa-download"
 				>
-				  Download - Radar PS4
+				  Em breve
 				</a>
 			  </li>
 			</ul>
