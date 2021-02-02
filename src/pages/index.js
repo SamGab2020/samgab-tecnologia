@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 import logotipo from '../assets/images/logo_no_cel.png';
 import pic1 from '../assets/images/pic_infocel.jpg';
 import pic2 from '../assets/images/pic_radar_ps4.jpg';
+import pic3 from '../assets/images/pic_all_code.jpg';
 import { Link } from 'gatsby';
 
 const IndexPage = () => (
@@ -98,7 +99,7 @@ const IndexPage = () => (
         </section>
 		<section className="spotlight">
           <div className="image">
-            <img src={pic2} alt="" />
+            <img src={pic3} alt="" />
           </div>
           <div className="content">
             <h3>All Code</h3>
@@ -109,7 +110,7 @@ const IndexPage = () => (
 			<ul className="actions">
 			  <li>
 				<a
-				  href="http://www.google.com"
+				  href="https://play.google.com/store"
 				  className="button icon fa-download"
 				>
 				  Em breve
