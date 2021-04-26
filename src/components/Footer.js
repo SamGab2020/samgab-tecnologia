@@ -19,9 +19,6 @@ export default function Footer() {
 		  <p className="copyright">
 			&copy; SamGab Tecnologia.
 		  </p>
-		  <p className="copyright">
-			CNPJ: 33.629.753/0001-10
-		  </p>
 		  <br/>
 		  <p className="copyright">		
 			Design - &copy; <a href="https://theanubhav.com/">Anubhav.</a>
