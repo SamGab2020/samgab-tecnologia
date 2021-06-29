@@ -18,7 +18,7 @@ const IndexPage = () => (
 						<h4>Aplicativos de terceiros</h4>
 						<p>Link para a política de privacidade da engine <a href="https://github.com/zxing/zxing/wiki/Frequently-Asked-Questions">ZXing</a>, utilizada pelo Allcode, e também o link para a política de privacidade do <a href="https://policies.google.com/privacy">Google Play Services</a>, mecanismo também utilizado pelo app.</p>
 						<h4>Ajustes para simplificar o Allcode</h4>
-						<p>Para simplificar a utilização do Allcode, as permissões originais de acesso aos contatos e também ao armazenamento interno foram removidas, ou seja, o app utiliza somente a permissão da câmera e utilização de rede (internet) para a correta utilização.</p>
+						<p>Para simplificar a utilização do Allcode, as permissões originais de acesso aos contatos foram removidas, ou seja, o app utiliza somente a permissão da câmera, armazenamento e utilização de rede (internet) para o correto funcionamento.</p>
 						<h4>Segurança</h4>
 						<p>O Allcode captura apenas a informação do barcode ou do QR code para você utilizar da melhor maneira.</p>
 						<h4>Links para outros sites</h4>
