@@ -102,9 +102,9 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </div>
           <div className="content">
-            <h3>All Code</h3>
+            <h3>Allcode</h3>
             <p>
-              Nos tempos atuais torna-se imprescindível a utilização de um aplicativo que leia códigos de barra e QR codes para que as informações sejam levadas até você de forma segura e prática. Pensando nisso desenvolvemos o All Code!
+              Nos tempos atuais torna-se imprescindível a utilização de um aplicativo que leia códigos de barra e QR codes para que as informações sejam levadas até você de forma segura e prática. Pensando nisso desenvolvemos o Allcode!
 			  
             </p>
 			<ul className="actions">
@@ -116,6 +116,11 @@ const IndexPage = () => (
 				  Em breve
 				</a>
 			  </li>
+			  <li>
+                <Link to="/Elements" className="button primary icon fa-plus">
+                  Política de privacidade
+                </Link>
+              </li>
 			</ul>
           </div>
         </section>
