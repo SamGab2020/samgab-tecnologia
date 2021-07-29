@@ -109,12 +109,7 @@ const IndexPage = () => (
             </p>
 			<ul className="actions">
 			  <li>
-				<a
-				  href="https://play.google.com/store"
-				  className="button icon fa-download"
-				>
-				  Em breve
-				</a>
+				<a href='https://play.google.com/store/apps/details?id=com.samgab.allcode&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt=		'Disponível no Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/pt-br_badge_web_generic.png' width="200" height="77" /></a>
 			  </li>
 			  <li>
                 <Link to="/Elements" className="button primary icon fa-plus">
