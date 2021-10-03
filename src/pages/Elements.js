@@ -18,7 +18,7 @@ const IndexPage = () => (
 						<h4>Aplicativos de terceiros</h4>
 						<p>Link para a política de privacidade da engine <a href="https://github.com/zxing/zxing/wiki/Frequently-Asked-Questions">ZXing</a>, utilizada pelo Allcode, e também o link para a política de privacidade do <a href="https://policies.google.com/privacy">Google Play Services</a>, mecanismo também utilizado.</p>
 						<h4>Ajustes para simplificar os apps</h4>
-						<p>Para simplificar a utilização do Allcode, as permissões originais de acesso aos contatos foram removidas, ou seja, o app utiliza somente a permissão da câmera, armazenamento e utilização de rede (internet) para o correto funcionamento. Nenhuma permissão complementar é utilizada para os outros apps disponíveis.</p>
+						<p>Para simplificar a utilização do Allcode, as permissões originais de acesso aos contatos foram removidas, ou seja, o app utiliza somente a permissão da câmera, armazenamento e utilização de rede (internet) para o correto funcionamento. Nenhuma permissão complementar é utilizada para os outros apps disponíveis em nosso catálogo.</p>
 						<h4>Segurança</h4>
 						<p>Os apps desenvolvidos capturam apenas as informações essenciais para você os utilizar da melhor maneira. </p>
 						<h4>Links para outros sites</h4>
